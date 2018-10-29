@@ -103,6 +103,24 @@ a, a:focus, a:hover {
   padding: 60px;
 }
 
+/*Logo à esquerda flutuando*/
+
+@media (max-width: 1199px)
+header .container_inner .header_inner_left .logo_wrapper {
+    position: absolute;
+    left: calc(50% - 107px);
+}
+
+
+header .container_inner .header_inner_left .logo_wrapper {
+    float: left;
+    position: absolute;
+    left: calc(50% - 107px);
+
+}
+
+/*xxxxxx*/
+
 /**
  *  Typography
  *
